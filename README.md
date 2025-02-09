@@ -25,7 +25,7 @@
 </h1>
 
 <p align="center">
-  Seja muito bem-vindo(a) ao **ChatGPT Custom Sales Insights**! Este projeto nasceu da ideia de utilizar um conjunto de dados de um **supermercado fictício** para obter insights e gerar relatórios de vendas. Aqui, o ChatGPT customizado será capaz de analisar os datasets e responder perguntas específicas, sempre com muita empolgação e clareza.
+  Seja muito bem-vindo(a) ao **Chat Custom Sales Insights**! Este projeto nasceu da ideia de utilizar um conjunto de dados de um **supermercado fictício** para obter insights e gerar relatórios de vendas. Aqui, o chat customizado, criado no ChatGPT, será capaz de analisar os datasets e responder perguntas específicas, sempre com muita empolgação e clareza.
   
   Neste repositório, você encontrará instruções para configurar o ambiente, preparar os dados e explorar as análises de vendas.
 </p>
@@ -56,9 +56,9 @@ Imagine seus dados de vendas como peças de um grande quebra-cabeça. Quando col
 ### Resumo do Projeto
 
 - **Fonte dos dados**: [Kaggle - Grocery Sales Dataset](https://www.kaggle.com/datasets/andrexibiza/grocery-sales-dataset)  
-- **Amostra Utilizada**: Em vez de utilizar o dataset completo (>1 milhão de entradas), optou-se por uma versão reduzida com 5 mil entradas (removendo ~1% de dados faltantes).  
+- **Amostra Utilizada**: Em vez de utilizar o dataset completo (>1 milhão de entradas), optou-se por uma versão reduzida com 5 mil entradas (removendo ~1% de dados faltantes do dataset original).  
 - **Período**: De `2018-01-01` a `2018-05-09` (formato yyyy-mm-dd).  
-- **Objetivo**: Permitir que um ChatGPT customizado gere insights (por exemplo, desempenho de vendas por mês, categorias e regiões) de forma interativa.
+- **Objetivo**: Permitir que um chat customizado gere insights (por exemplo, desempenho de vendas por mês, categorias e regiões) de forma interativa.
 
 ---
 
@@ -78,8 +78,9 @@ Imagine seus dados de vendas como peças de um grande quebra-cabeça. Quando col
 
 ## Pré-requisitos
 
-1. **Padronizar formato de datas**: Garanta que a coluna `SalesDate`, do dataset "sales.csv", esteja no formato `yyyy-mm-dd`.
-2. **Ferramenta de Análise**: Você pode usar Python, R ou qualquer outra tecnologia (Power BI, Excel, etc.) para leitura e tratamento dos arquivos CSV.
+1. **Chat customizado**: Se você tiver uma assinatura paga do ChatGPT, você pode criar um chat customizado para executar as consultas para os insights. Caso você não possua um, há a possibilidade de usar o ChatGPT (ou qualquer chat de IA) para anexar os datasets e realizar as consultas. Lembre-se que há uma limitação de números de consultas em chats sem assinatura.
+2. **Padronizar formato de datas**: Garanta que a coluna `SalesDate`, do dataset "sales.csv", esteja no formato `yyyy-mm-dd`.
+3. **Ferramenta de Análise**: Você pode usar Python, R ou qualquer outra tecnologia (Power BI, Excel, etc.) para leitura e tratamento dos arquivos CSV.
 
 Exemplo em Python:
 
@@ -91,7 +92,7 @@ src="./img/python_code.png"
 
 ## Perguntas
 
-Para facilitar a execução das análises, aqui vai uma lista de comandos que você pode realizar com o ChatGPT customizado ou com sua ferramenta de análise preferida. Pense neles como cartas mágicas que você pode lançar para obter diferentes visões do seu conjunto de dados:
+Para facilitar a execução das análises, aqui vai uma lista de comandos que você pode realizar com o chat ou com sua ferramenta de análise preferida. Pense neles como cartas mágicas que você pode lançar para obter diferentes visões do seu conjunto de dados:
 
 | Pergunta / Comando                                                                               | Descrição                                                                                                        |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
