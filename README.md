@@ -2,11 +2,11 @@
   <br />
   <img
     src="./img/icon.png"
-    alt="ChatGPT Custom Sales Insights"
+    alt="Chat Custom Sales Insights"
     width="800"
   />
   <br />
-  <b>ChatGPT Custom Sales Insights</b>
+  <b>Chat Custom Sales Insights</b>
   <br />
   <sub><sup><b>(GROCERY SALES)</b></sup></sub>
   <br />
